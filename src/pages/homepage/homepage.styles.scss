@@ -1,0 +1,27 @@
+.homepage {
+    position: relative;
+    top: 70px;
+    width: 1170px;
+    margin: 0 auto;    
+    display: flex;
+
+    .hero-area {
+        height: 400px;
+        width: 100%;
+        display: flex;
+
+        .buttons {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .wave {
+            align-items: flex-end;
+        }
+    }
+}
+

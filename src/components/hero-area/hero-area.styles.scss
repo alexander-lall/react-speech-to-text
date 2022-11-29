@@ -1,0 +1,22 @@
+.hero-image {
+    width: 1170px;
+    height: 600px;
+    margin: 0 auto;
+
+    background-image: url('../../assets/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .hero-text {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        text-align: center;
+        color: white;
+    }
+}

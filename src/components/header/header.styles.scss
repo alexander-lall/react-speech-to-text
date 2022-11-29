@@ -1,0 +1,37 @@
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  height: 70px;
+  width: 100%;
+  background-color: black;  
+
+  .nav-bar {    
+    width: 1170px;
+    height: 100%;    
+    margin: 0 auto;  
+    display: flex;
+    justify-content: space-between;
+
+    .logo-container {
+      height: 100%;
+      width: 50%;
+      color: white;
+    }
+  
+    .options {      
+      height: 100%;
+      width: 50%;
+      margin: 0 -15px 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  
+      .option {
+        color: white;
+        padding: 10px 15px;
+        cursor: pointer;
+      }
+    }
+  }
+}
